@@ -1,0 +1,20 @@
+{
+  "name": "image-validator",
+  "version": "0.0.5",
+  "description": "this package helps to validate images",
+  "main": "y",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validate",
+    "image",
+    "detect",
+    "corrupt",
+    "images",
+    "validate",
+    "files"
+  ],
+  "author": "Henry Izontimi",
+  "license": "MIT"
+}

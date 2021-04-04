@@ -2,11 +2,11 @@
 
 ## This package helps to validate images on the DOM.
 
-validateImage is small and simple utility package that can validate any kind of image, 
+A small and simple utility package that can validate any kind of image, 
 - It can check and detect corrupt image files.
 - it can check and detect files whose extensions have been renamed to look like images.
 
-It support actual image files(from input), or any string image url (could be a data url, local url or a remote url on a server).
+It supports actual image files(from input), or any string image url (could be a data url, local url or a remote url on a server).
 
 ## Examples
 

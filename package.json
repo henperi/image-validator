@@ -1,7 +1,7 @@
 {
   "name": "image-validator",
   "version": "1.0.1",
-  "description": "this package helps to validate images",
+  "description": "A small and simple utility package that can validate any kind of image. It can detect corrupt files, or invalid image urls",
   "main": ".dist/index.ts",
   "scripts": {
     "build": "tsc",

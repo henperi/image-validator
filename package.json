@@ -1,6 +1,6 @@
 {
   "name": "image-validator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "this package helps to validate images",
   "main": ".dist/index.ts",
   "scripts": {

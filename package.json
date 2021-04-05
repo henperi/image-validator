@@ -2,7 +2,7 @@
   "name": "image-validator",
   "version": "1.0.2",
   "description": "A small and simple utility package that can validate any kind of image. It can detect corrupt files, or invalid image urls",
-  "main": ".dist/index.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "test": "ts-mocha tests/**/*.ts",

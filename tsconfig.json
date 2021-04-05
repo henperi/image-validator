@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "ES6",
     "module": "commonjs",
     "strict": true,
     "declaration": true,
     "outDir": "./"
   },
-  "exclude": ["tests", "dist", "node_modules", "index.d.ts"]
+  "exclude": ["tests", "dist", "node_modules", "index.d.ts", "index.js"]
 }

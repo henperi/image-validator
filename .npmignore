@@ -1,0 +1,9 @@
+node_modules
+.nyc_output
+coverage
+dist
+tsconfig.json
+.nycrc.json
+package-lock.json
+.eslintrc
+src

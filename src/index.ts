@@ -28,7 +28,7 @@ export const validateImage = (
   return new Promise((resolve, reject) => {
     image.addEventListener("error", () =>
       config?.throw
-        ? reject("The selected media resource is unsuitable")
+        ? reject("The media resource is either invalid, corrupt or unsuitable")
         : resolve(false)
     );
 

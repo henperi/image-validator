@@ -4,7 +4,7 @@
     "module": "commonjs",
     "strict": true,
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./"
   },
-  "exclude": ["tests", "dist", "node_modules"]
+  "exclude": ["tests", "dist", "node_modules", "index.d.ts"]
 }

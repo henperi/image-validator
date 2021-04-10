@@ -23,7 +23,6 @@ export const validateImage = (
 
   const image = new Image();
   image.src = url;
-  image.setAttribute("crossOrigin", "anonymous");
 
   return new Promise((resolve, reject) => {
     image.addEventListener("error", () =>

@@ -11,7 +11,9 @@ export const validateImage = (
   }
 ): Promise<boolean | undefined> => {
   if (typeof window === "undefined") {
-    throw new Error("Cannot use this utility method in a non browser environment");
+    throw new Error(
+      "Cannot use this utility method in a non browser environment"
+    );
   }
 
   let url = "";

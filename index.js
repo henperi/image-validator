@@ -20,7 +20,6 @@ const validateImage = (src, config) => {
     }
     const image = new Image();
     image.src = url;
-    image.setAttribute("crossOrigin", "anonymous");
     return new Promise((resolve, reject) => {
         image.addEventListener("error", () => (config === null || config === void 0 ? void 0 : config.throw)
             ? reject("The media resource is either invalid, corrupt or unsuitable")

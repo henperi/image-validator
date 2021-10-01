@@ -1,6 +1,6 @@
 {
   "name": "image-validator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A small and simple utility package that can validate any kind of image. It can detect corrupt files, or invalid image urls",
   "main": "index.js",
   "scripts": {
